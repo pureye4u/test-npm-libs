@@ -1,0 +1,33 @@
+{
+  "name": "test-npm-libs",
+  "version": "1.0.0",
+  "description": "Test lib app",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -p src -w",
+    "build": "rm -rf lib && tsc -p src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pureye4u/test-npm-libs.git"
+  },
+  "author": "pureye4u@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pureye4u/test-npm-libs/issues"
+  },
+  "homepage": "https://github.com/pureye4u/test-npm-libs#readme",
+  "dependencies": {
+    "@angular/common": "^4.0.1",
+    "@angular/compiler": "^4.0.1",
+    "@angular/core": "^4.0.1",
+    "@angular/http": "^4.0.1",
+    "@angular/platform-browser": "^4.0.1",
+    "@angular/platform-browser-dynamic": "^4.0.1",
+    "rxjs": "^5.3.0",
+    "zone.js": "^0.8.5"
+  },
+  "devDependencies": {
+    "typescript": "^2.2.2"
+  }
+}
