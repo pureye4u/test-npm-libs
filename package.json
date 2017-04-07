@@ -16,6 +16,12 @@
   "bugs": {
     "url": "https://github.com/pureye4u/test-npm-libs/issues"
   },
+  files: [
+      "components.d.ts",
+      "components.js",
+      "REDME.md",
+      "lib"
+  ],
   "homepage": "https://github.com/pureye4u/test-npm-libs#readme",
   "dependencies": {
     "@angular/common": "^4.0.1",
