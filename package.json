@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/pureye4u/test-npm-libs/issues"
   },
-  files: [
+  "files": [
       "components.d.ts",
       "components.js",
       "REDME.md",
