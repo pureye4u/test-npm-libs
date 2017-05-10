@@ -1,5 +1,7 @@
 import {Component} from '@angular/core';
 
+import { BaseObject } from 'npmsample2/core/BaseObject';
+
 @Component({
     selector: 'hello-world',
     styles: [`
